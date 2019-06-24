@@ -1,5 +1,6 @@
 class Shoe
   
+  attr_accessor :size
   attr_reader :brands
   
   BRANDS = []
