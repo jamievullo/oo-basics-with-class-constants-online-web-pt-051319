@@ -4,8 +4,8 @@ class Shoe
   
   BRANDS = []
   
-  def initialize(brands)
-    @brands
+  def initialize(size)
+    @size = size
   end
   
   def brands=(brands)
