@@ -1,5 +1,7 @@
 class Shoe
   
+  attr_reader :brands
+  
   BRANDS = []
   
   def initialize(brands)
